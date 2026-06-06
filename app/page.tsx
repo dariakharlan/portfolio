@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Certifications from "./components/Certifications";
 import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import SectionNav from "./components/SectionNav";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <Certifications />
         <CTA />
       </main>
-{/*<Footer />*/}
+      <SectionNav />
     </>
   );
 }
