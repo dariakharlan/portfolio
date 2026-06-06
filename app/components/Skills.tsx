@@ -37,7 +37,6 @@ export default function Skills() {
           id="skills"
           className="min-h-screen snap-start flex flex-col justify-center py-16 px-margin-mobile"
         >
-          <h2 className="text-headline-lg text-on-surface mb-8">Expertise</h2>
           <div className="bg-surface-container p-8 rounded-xl border border-outline-variant/30">
             <h3 className="text-headline-md text-primary mb-8 flex items-center gap-3">
               <span className="material-symbols-outlined">build</span>
@@ -64,10 +63,6 @@ export default function Skills() {
         className="hidden md:flex min-h-screen snap-start flex-col justify-center py-16 bg-surface-container-lowest"
       >
         <div className="px-margin-desktop max-w-container-max mx-auto w-full">
-          <div className="mb-16">
-            <h2 className="text-headline-lg text-on-surface mb-4">Expertise</h2>
-            <div className="w-24 h-1 bg-primary rounded-full" />
-          </div>
           <div className="grid grid-cols-2 gap-gutter">
             <div className="bg-surface-container p-10 rounded-xl border border-outline-variant/30 hover:border-primary/50 transition-colors">
               <h3 className="text-headline-md text-primary mb-8 flex items-center gap-3">
