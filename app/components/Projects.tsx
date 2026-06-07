@@ -55,12 +55,12 @@ const projects = [
 export default function Projects() {
   return (
     <>
+      <div id="work" />
       {/* Mobile: each card is its own full-screen snap section */}
       <div className="md:hidden">
         {projects.map((project, i) => (
           <section
             key={i}
-            id={i === 0 ? "work" : undefined}
             className="min-h-screen snap-start flex flex-col justify-center py-16 px-margin-mobile"
           >
             {i === 0 && (
@@ -73,7 +73,6 @@ export default function Projects() {
 
       {/* Desktop: single snap section with grid */}
       <section
-        id="work"
         className="hidden md:flex min-h-screen snap-start flex-col justify-center py-16 px-margin-desktop max-w-container-max mx-auto"
       >
         <h2 className="text-headline-lg text-on-surface mb-6">Projects</h2>
